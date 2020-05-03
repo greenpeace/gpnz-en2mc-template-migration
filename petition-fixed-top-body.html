@@ -1,0 +1,71 @@
+<body>
+<div class="wrapper"><!-- open wrapper -->
+    
+<!-- WYSYWIG Block Editor -->
+<!-- FORM Block Editor -->
+<div class="en__component en__component--formblock form-toggle formStage" style="">
+	<div class="en__field en__field--text en__field--654161 en__field--emailAddress en__mandatory">
+	<label for="en__field_supporter_emailAddress" class="en__field__label" style="">Email address*</label>
+	<div class="en__field__element en__field__element--text">
+		<input id="en__field_supporter_emailAddress" type="text" class="en__field__input en__field__input--text" name="supporter.emailAddress" value=""  />
+	 </div>
+	</div>
+			<div class="en__field en__field--text en__field--654162 en__field--firstName en__mandatory">
+	<label for="en__field_supporter_firstName" class="en__field__label" style="">First name*</label>
+	<div class="en__field__element en__field__element--text">
+		<input id="en__field_supporter_firstName" type="text" class="en__field__input en__field__input--text" name="supporter.firstName" value=""  />
+	 </div>
+	</div>
+			<div class="en__field en__field--text en__field--654163 en__field--lastName en__mandatory">
+	<label for="en__field_supporter_lastName" class="en__field__label" style="">Last name*</label>
+	<div class="en__field__element en__field__element--text">
+		<input id="en__field_supporter_lastName" type="text" class="en__field__input en__field__input--text" name="supporter.lastName" value=""  />
+	 </div>
+	</div>
+			<div class="en__field en__field--text en__field--654164 en__field--NOT_TAGGED_4">
+	<label for="en__field_supporter_NOT_TAGGED_4" class="en__field__label" style="">Phone</label>
+	<div class="en__field__element en__field__element--text">
+		<input id="en__field_supporter_NOT_TAGGED_4" type="text" class="en__field__input en__field__input--text" name="supporter.NOT_TAGGED_4" value=""  />
+	 </div>
+	</div>	
+</div><!-- close form block -->
+	
+<!-- editor blocks -->
+<div class="en__component en__component--codeblock">
+    <script>
+    var facebookURL = "https://www.facebook.com/sharer/sharer.php?u=https://greenpeace.nz/8aqhng";
+    var twitterURL = "https://twitter.com/intent/tweet?hashtags=COVID19nz%2CClimateCrisis%2CGreenCovidResponse&original_referer=https%3A%2F%2Fpublish.twitter.com%2F%3FbuttonHashtag%3DCOVID19nz%252CClimateCrisis%252CGreenCovidResponse%26buttonRecommendation%3Dgreenpeacenz%26buttonText%3DI%2520just%2520signed%2520this%2520petition%2520calling%2520on%2520the%2520%2540nzlabour-led%2520Govt%2520to%2520adopt%2520the%2520Green%2520Covid%2520Response%26buttonType%3DTweetButton%26buttonUrl%3Dhttps%253A%252F%252Fgreenpeace.nz%252F1c2c47%26buttonVia%3Dgreenpeacenz%26widget%3DButton&ref_src=twsrc%5Etfw&related=greenpeacenz&text=I%20just%20signed%20this%20petition%20calling%20on%20the%20%40nzlabour-led%20Govt%20to%20adopt%20the%20Green%20Covid%20Response&tw_p=tweetbutton&url=https%3A%2F%2Fgreenpeace.nz%2F1c2c47&via=greenpeacenz";
+    var whatsappURL="https://wa.me/?text=Please+sign+this+important+petition+calling+on+Govt+to+invest+in+a+Covid+response+that+puts+people+and+planet+first+https://greenpeace.nz/308dgq"
+    </script>
+</div>      
+    
+<!-- hidden until form submitted -->
+<div class="en__component en__component--copyblock shareStage">
+	<h1>Thanks for signing on {user_data~first_name}!</h1>
+	<h2>Now, will you share this action with your friends? The more support we get for this idea, the more likely our Government is to embrace it.</h2>
+	<p>
+        	<button class="shareButton" id="yes" type="button">YES</button>
+        	<button class="shareButton" id="no" type="button">NO</button>
+	</p>
+</div><!-- close shareStage -->
+
+<div class="en__component en__component--copyblock shareOptionsStage">
+	<h1>Excellent!</h1>
+	<h2>Please share to spread the word:</h2>
+	<!-- set your sharing URLs in the code block above this block -->
+	<p><a id="facebook" target="_blank" type="button">Share on Facebook</a> <a id="twitter" target="_blank" type="button">Share on Twitter</a> <a id="whatsapp" target="_blank" type="button">Share on Whatsapp</a></p>
+	<p><a href="#" id="skippy">skip</a></p>
+</div><!-- close shareOptionsStage -->
+	
+<div class="en__component en__component--copyblock donateStage">
+	<h1>While the world faces the current pandemic, Greenpeace remains committed to protecting our oceans, fresh water and climate.</h1>
+	<h2>Our work is 100% funded by people like you. Without that ongoing support, we cannot continue. <strong>Will you chip in now to keep us in action?</strong></h2>
+	<p style="text-align:center;"><button class="donateButton" id="das2" type="button">$100</button></p>
+	<p style="text-align:center;"><button class="donateButton" id="das1" type="button">$55</button></p>
+	<p style="text-align:center;"><button class="donateButton" id="das0" type="button">$39</button></p>
+	<p style="text-align:center;"><button class="donateButton" id="dasOther" type="button">Other</button></p>
+	<p><span style="font-size:14px;">Greenpeace does not accept funding from governments or corporations so we can maintain a much needed independent voice and always put the planet top of the agenda. We rely on the generosity of our individual supporters like you to&nbsp;fund our work. Greenpeace New Zealand is an approved donee organisation. Donations of $5 or more are tax-deductible.</span></p>
+</div><!-- close donateStage -->
+	
+</div><!-- close wrapper -->
+</body>
