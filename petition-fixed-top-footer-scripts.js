@@ -1,3 +1,12 @@
+    /*************************************
+     Encoded Share URL vars
+     NOTE!!! must be accessible by users in front end
+     These links will change for each campaign
+    **************************************/
+
+var facebookURL = "https://www.facebook.com/sharer/sharer.php?u=https://greenpeace.nz/7vho7z";
+var twitterURL = "https://twitter.com/intent/tweet?hashtags=RegenAg%2CRegenerativeAgriculture%2CBuildBackBetterNZ&original_referer=https%3A%2F%2Fpublish.twitter.com%2F%3FbuttonHashtag%3DRegenAg%252CRegenerativeAgriculture%252CBuildBackBetterNZ%26buttonRecommendation%3DGreenpeaceNZ%26buttonText%3DJoin%2520me%2520to%2520call%2520on%2520the%2520Govt%2520to%2520support%2520the%2520regenerative%2520farming%2520revolution%26buttonType%3DTweetButton%26buttonUrl%3Dhttps%253A%252F%252Fgreenpeace.nz%252F3cw4hg%26buttonVia%3DGreenpeaceNZ%26widget%3DButton&ref_src=twsrc%5Etfw&related=GreenpeaceNZ&text=Join%20me%20to%20call%20on%20the%20Govt%20to%20support%20the%20regenerative%20farming%20revolution&tw_p=tweetbutton&url=https%3A%2F%2Fgreenpeace.nz%2F3cw4hg&via=GreenpeaceNZ";
+var whatsappURL= "https://wa.me/?text=Please+sign+this+petition+https://greenpeace.nz/iwifxv"
 
     /*************************************
      phoneLength input validation process
